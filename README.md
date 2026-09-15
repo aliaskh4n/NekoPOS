@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="logo.png" alt="Neko POS" width="140" />
+  <img src="banner.png" alt="Neko POS" width="100%" />
 </p>
 
 <h1 align="center">Neko POS</h1>
 <p align="center">Современная касса для ресторанов, кафе, баров, кофеен и кальянных в Казахстане</p>
-<p align="center"><b>Текущая версия: 0.4.15</b></p>
+<p align="center"><b>Текущая версия: 0.4.16</b></p>
 
 ---
 
@@ -85,15 +85,3 @@ Windows: «Подробнее» → «Выполнить в любом случ�
 - **UI**: [Wails v2](https://wails.io) — нативное окно на системном
   webview + HTML/CSS/JS, без Electron.
 - **Личный кабинет и веб-админка**: React/TypeScript, отдельный сервис.
-
-## Скриншоты
-
-_Интерфейс на демо-данных (не реальное заведение)._
-
-| Столы и залы | Открытый счёт |
-|---|---|
-| ![Столы и залы](screenshots/tables.png) | ![Открытый счёт](screenshots/order.png) |
-
-| Смена — X-отчёт | Тёмная тема |
-|---|---|
-| ![Смена](screenshots/shift.png) | ![Тёмная тема](screenshots/dark-theme.png) |
