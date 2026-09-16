@@ -56,4 +56,5 @@ EOF
 command -v update-desktop-database >/dev/null 2>&1 && update-desktop-database "$HOME/.local/share/applications" || true
 
 echo "Готово: ${INSTALL_DIR}/nekopos (ярлык — в меню приложений, «Neko POS»)"
-"$INSTALL_DIR/nekopos" &
+"$INSTALL_DIR/nekopos" </dev/null >/dev/null 2>&1 &
+disown

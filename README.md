@@ -29,7 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/aliaskh4n/NekoPOS/main/install.sh |
 
 **Linux** (x86_64):
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aliaskh4n/NekoPOS/main/install-linux.sh | bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/aliaskh4n/NekoPOS/main/install-linux.sh)"
 ```
 
 **Windows** (PowerShell):
